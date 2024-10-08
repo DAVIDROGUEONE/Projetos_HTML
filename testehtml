@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apredendo HTML</title>
+  <style>
+    h3 {
+        text-align: center;
+    }
+    h2  {
+        text-align: center;
+    }
+    form {
+        text-align: center;
+    }
+    a {
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+<h3>Bem vindo ao</h3>
+<h3>Incode Tech School</h3>
+    <header>
+        <h2>Cadastra - se</h2>
+       
+    </header>
+
+    <form action="submit">
+       <a href="google.com.br"> <button><img src="" alt="" />Continuar com o Google</button>
+       </a>
+       <a href="https://x.com/home"> <button><img src="" alt="" />Continuar com o X</button>
+       </a>
+       <a href="https://github.com"> <button><img src="" alt="" />Continuar com o Github</button>
+       </a>
+
+       <h3>Faça o login</h3>
+        <input type="text" placeholder="email"/>
+        <input type="text" placeholder="senha"/>
+    </form>
+    <aside>
+        <h3></h3>
+    </aside>
+    <footer>
+        <h4></h4>
+    </footer>
+
+</body>
+</html>
