@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Avançados e Formulário</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        aside {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin: 20px 0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho com título e navegação -->
+    <header>
+        <h1>Bem-vindo ao Site</h1>
+        <nav>
+            
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#contact">Contato</a>
+        
+        </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção de introdução -->
+        <section id="home">
+            <h2>HOME</h2>
+            <p>Esta é a página principal do site</p>
+        </section>
+
+        <!-- Seção de listas -->
+        
+            <h3>MINHAS HABILIDADES</h3>
+            <ol>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+            </ol>
+            <section id="lists">
+                <h2>SOBRE</h2>
+                <p>Infomações sobre o site</p>
+    
+            <h3>MEUS INTERESES</h3>
+            <ul>
+                <li>Desenvolvimento Web</li>
+                <li>Inteligência Artificial</li>
+                <li>Design Gráfico</li>
+            </ul>
+        </section>
+
+        <!-- Seção com formulário -->
+        <section id="form-section">
+            <h2>Contato</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password">
+            
+                    <label>Gênero:</label>
+                    <label><a><input type="radio" name="gender" value="masculino"> Masculino</a></label>
+                    <label><a><input type="radio" name="gender" value="feminino"> Feminino</a></label>
+
+                    <label for="country">País:</label>
+                    <select id="country" name="country">
+                        <option value="brasil">Brasil</option>
+                        <option value="eua">Estados Unidos</option>
+                        <option value="portugal">Portugal</option>
+                    </select>
+
+                </fieldset>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Barra lateral com informações adicionais -->
+    <aside>
+        <h2>NOTICIAS</h2>
+        <p>Confira as últimas notícias e novidades sobre.</p>
+        <ul>
+            <li><a href="#">Tecnologias</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Esporte</a></li>
+        </ul>
+    </aside>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
