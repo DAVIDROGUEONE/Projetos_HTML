@@ -9,35 +9,79 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f6f5f0; /* Cor de fundo suave */
+            color: #333; /* Cor do texto */
         }
         header, footer {
-            background-color: #333;
+            background-color: #8fbc8f; /* Verde suave e aconchegante */
             color: white;
             text-align: center;
-            padding: 1rem;
+            padding: 1.5rem;
         }
         nav a {
             color: white;
-            margin: 0 10px;
+            margin: 0 15px;
             text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
         }
         main {
             padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
         }
         aside {
-            background-color: #f4f4f4;
-            padding: 10px;
+            background-color: #f7e7ce; /* Bege suave */
+            padding: 15px;
             margin: 20px 0;
+            border-radius: 8px;
         }
         section {
             margin-bottom: 20px;
         }
         form {
             margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
         }
         form label {
             display: block;
             margin-top: 10px;
+        }
+        .form-group-inline {
+            display: flex;
+            align-items: center;
+        }
+        .form-group-inline label {
+            margin-right: 10px;
+            display: inline-block;
+        }
+        fieldset {
+            border: none;
+            padding: 0;
+        }
+        legend {
+            font-weight: bold;
+            color: #8fbc8f; /* Cor do título de formulário */
+        }
+        button {
+            background-color: #8fbc8f; /* Botão com cor suave */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #7ba27b; /* Tom um pouco mais escuro ao passar o mouse */
+        }
+        footer {
+            margin-top: 20px;
+            padding: 1rem;
         }
     </style>
 </head>
@@ -99,11 +143,12 @@
 
                     <label for="password">Senha:</label>
                     <input type="password" id="password" name="password">
-            
-                    <label>Gênero:</label>
-                    <label><a><input type="radio" name="gender" value="masculino"> Masculino</a></label>
-                    <label><a><input type="radio" name="gender" value="feminino"> Feminino</a></label>
-
+                      <!-- Sexo em linha -->
+                    <div class="form-group-inline">
+                        <label>Gênero:</label>
+                        <label><input type="radio" name="gender" value="masculino"> Masculino</label>
+                        <label><input type="radio" name="gender" value="feminino"> Feminino</label>
+                    </div>
                     <label for="country">País:</label>
                     <select id="country" name="country">
                         <option value="brasil">Brasil</option>
