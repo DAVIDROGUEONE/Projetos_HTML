@@ -1,9 +1,7 @@
 @charset"UTF-8";
-
 body{
-        background-color:  white;
-        color: rgb(53, 54, 53);
-    }
+    margin: 0px;
+}
 p {
         text-align: justify;
         text-indent: 50px;
@@ -24,3 +22,8 @@ nav#menu
         padding: 5px;
         margin: 5px;
     }
+.pet{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+ 
+    
