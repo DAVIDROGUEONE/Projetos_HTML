@@ -1,0 +1,17 @@
+body{
+    background-color:  rgb(72, 40, 187);
+    color: rgb(76, 126, 184);
+   
+}
+header{
+    text-align: center;
+    background-color: rgba(40, 228, 218, 0.082);
+}
+
+.peixe {
+    color: rgb(93, 132, 240);
+    text-align: center;
+}
+ .titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ }
