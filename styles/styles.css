@@ -25,5 +25,7 @@ nav#menu
 .pet{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
     }
- 
-    
+ /* Cor do botão menu dos pets */
+.menu1{
+    background-color: rgb(253, 208, 8);
+}    
