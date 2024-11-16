@@ -1,17 +1,58 @@
-body{
-    background-color:  rgb(15, 8, 41);
-    color: rgb(255, 255, 255);
-   
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcfbfb;
+  color: #0a0a0a;
+  margin: 0;
+  padding: 20px;
 }
-header{
-    text-align: center;
-    background-color: rgba(0, 174, 255, 0.082);
+/*centralizar o titulo*/
+h1 {
+  text-align: center;
+  color: #080808;
 }
 
-.cao {
-    color: rgb(255, 255, 255);
-    text-align: center;
+/* Estilo das seções "detalhes" e "botões" */
+.botoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
 }
- .titulo{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
- }
+/*tamanho do botão e  section*/
+details {
+  width: 50%;
+}
+/*detalhes dos botões*/
+summary {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #239127;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+}
+
+/*mudança de cor quando passa o mouse por cima*/
+summary:hover {
+  background-color: #176e1a;
+}
+
+.detalhe {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #adacac;
+  border-radius: 5px;
+}
+
+/* Imagem centralizada */
+section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
