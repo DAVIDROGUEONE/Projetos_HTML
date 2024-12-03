@@ -1,6 +1,6 @@
 body {
-    background-color:  rgb(224, 167, 215);
-    color: rgb(133, 61, 27);
+    background-color:  rgb(228, 188, 222);
+    color: rgb(14, 8, 5);
 }
 .passaro {
     color: rgb(24, 16, 12);
@@ -12,4 +12,12 @@ body {
  header{
     text-align: center;
     background-color: rgba(255, 123, 0, 0.103);
+}
+.parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
 }

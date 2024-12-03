@@ -1,6 +1,6 @@
 body{
-    background-color:  rgb(23, 143, 83);
-    color: rgb(32, 85, 54);
+    background-color:  rgba(153, 214, 184, 0.945);
+    color: rgba(12, 14, 13, 0.822);
 }
 .furao{
     color: rgb(20, 20, 18);
@@ -12,4 +12,12 @@ body{
  header{
     text-align: center;
     background-color: rgba(31, 207, 169, 0.103);
+}
+.parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
 }

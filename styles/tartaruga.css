@@ -1,6 +1,6 @@
 body{
-    background-color:  rgb(245, 45, 45);
-    color: rgb(32, 85, 54);
+    background-color:  rgb(247, 185, 203);
+    color: rgba(14, 19, 16, 0.884);
 }
 .tartaruga{
     color: rgb(20, 20, 18);
@@ -12,4 +12,12 @@ body{
  header{
     text-align: center;
     background-color: rgba(31, 207, 169, 0.103);
+}
+.parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
 }

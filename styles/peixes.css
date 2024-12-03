@@ -1,9 +1,9 @@
 body {
-    background-color:  rgb(10, 145, 255);
-    color: rgb(133, 61, 27);
+    background-color:  rgb(157, 208, 250);
+    color: rgb(24, 20, 56);
 }
 .peixe {
-    color: rgb(133, 61, 27);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 .titulo{
@@ -12,4 +12,12 @@ body {
  header{
     text-align: center;
     background-color: rgba(255, 123, 0, 0.103);
+}
+.parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
 }

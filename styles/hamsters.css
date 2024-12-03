@@ -1,6 +1,6 @@
 body{
-    background-color:  rgb(151, 146, 218);
-    color: rgb(255, 255, 255);
+    background-color:  rgb(170, 167, 218);
+    color: rgba(19, 17, 17, 0.699);
    
 }
 header{
@@ -9,9 +9,17 @@ header{
 }
 
 .hamsters{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-align: center;
 }
  .titulo{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
  }
+ .parceiro {
+    position: fixed; 
+    bottom: 0;       
+    right: 0;      
+    width: 200px;   
+    height: auto;   
+    margin: 65px;  
+}

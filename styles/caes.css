@@ -1,6 +1,6 @@
 body{
-  background-color:  rgb(15, 8, 41);
-  color: rgb(255, 255, 255);
+  background-color:  rgb(190, 182, 221);
+  color: rgb(224, 56, 56);
  
 }
 header{
@@ -9,9 +9,27 @@ header{
 }
 
 .cao {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .titulo{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.parceiro-link {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 65px;
+  display: inline-block;
+  cursor: pointer; /* Indica que é clicável ​👇​ */
+}
+
+.parceiro-link img {
+  width: 200px; /* Mesma largura original */
+  height: auto;
+  transition: transform 0.3s ease; /* Suavizar animação */
+}
+
+.parceiro-link img:hover {
+  transform: scale(1.1); /* Aumenta o botão ao passar o mouse */
 }
